@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+*{
+    font-family: 'Fredoka', sans-serif;
+    
+}
+
+.title
+{
+    
+	font-size: 65px;
+	color: #faedfa;
+	word-wrap:break-word;
+    margin-bottom: 80px;
+}
+
+
+.container {
+	width: 100%;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 0 200px;
+    background:#9026e7;
+    -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+    box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);  
+}
+
+
+.animate {
+	margin: 100px 0 0;	
+}
+
+.animate span {
+	display: inline-block;
+}
+
+.animate span:nth-of-type(2) {
+	animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+	animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+	animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+	animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+	animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+	animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+	animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+	animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+	animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+	animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+	animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+	animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+	animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+	animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+	animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+	animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+	animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+	animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+	animation-delay: .95s;
+}
+
+
+
+/* Animation title */
+
+.title span {
+	color: #faedfa;
+	opacity: 0;
+	transform: translate(-150px, 0) scale(.3);
+	animation: leftRight .5s forwards;
+}
+
+
+@keyframes leftRight {
+	40% {
+		transform: translate(20px, 0) scale(.7);
+		opacity: 1;
+		color: #faedfa;
+	}
+
+	60% {
+		color: #faedfa;
+	}
+
+	80% {
+		transform: translate(0) scale(2);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translate(0) scale(1);
+		opacity: 1;
+	}
+}
+
+
+
+form{
+    margin:0 auto;
+    max-width:80%;
+    padding:40px;
+    border-radius:5px; 
+
+  }
+
+.form-group{
+    color: #faedfa;    
+    font-size: 25px;
+    
+}  
+
+
+  /* Стили полей ввода */
+  .form-control{
+      height: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  /* Базовые стили кнопки */
+  .button{
+    position: relative;
+    margin: 15px;
+    height:30%;
+    width:50%;
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 0px solid;
+    padding:10px;
+    background:#faedfa;
+    color: #9026e7;
+    font-size:25px;
+    transition:0.6s;
+    cursor:pointer;
+    
+  }
+  /* Изменение фона кнопки при наведении */
+  .button:hover{
+    background:#5d33ac;
+    color:#faedfa;
+  }
+
+  /*-----------------------------------------------------*/
+
+  #booktable{
+    color:#faedfa;
+   
+}
+#book-list{
+    color:#faedfa;
+}
+
